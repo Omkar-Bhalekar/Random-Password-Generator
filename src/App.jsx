@@ -28,7 +28,7 @@ function App() {
   },[length,numberAllowed,charAllowed,setPassword])
 
 
-  // Copy Generated Password Function
+  // Copy To Clipboard
 
   const passwordRef = useRef(null);
   const copyPasswordToClipboard = useCallback(()=>{
